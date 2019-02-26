@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D185DDE22252AB600209AEB /* ZBDeviceUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D185DDD22252AB600209AEB /* ZBDeviceUUID.m */; };
 		6D7CE697221676EB0038F140 /* NSObject+ZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE696221676EB0038F140 /* NSObject+ZB.m */; };
 		6D7CE69A221691740038F140 /* UIColor+ZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE699221691740038F140 /* UIColor+ZB.m */; };
 		6D7CE69D221696530038F140 /* UIImage+ZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CE69C221696530038F140 /* UIImage+ZB.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D185DDC22252AB600209AEB /* ZBDeviceUUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBDeviceUUID.h; sourceTree = "<group>"; };
+		6D185DDD22252AB600209AEB /* ZBDeviceUUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBDeviceUUID.m; sourceTree = "<group>"; };
 		6D7CE695221676EB0038F140 /* NSObject+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZB.h"; sourceTree = "<group>"; };
 		6D7CE696221676EB0038F140 /* NSObject+ZB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZB.m"; sourceTree = "<group>"; };
 		6D7CE698221691740038F140 /* UIColor+ZB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZB.h"; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				6D81413322153BED0068255A /* category */,
 				6D7CE6AB2216AC770038F140 /* ZBUtility.h */,
 				6D7CE6AC2216AC770038F140 /* ZBUtility.m */,
+				6D185DDC22252AB600209AEB /* ZBDeviceUUID.h */,
+				6D185DDD22252AB600209AEB /* ZBDeviceUUID.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D185DDE22252AB600209AEB /* ZBDeviceUUID.m in Sources */,
 				6D7CE6B02216BDD30038F140 /* NSDictionary+ZB.m in Sources */,
 				6D7CE69A221691740038F140 /* UIColor+ZB.m in Sources */,
 				6D7CE6A32216A0090038F140 /* UIBezierPath+ZB.m in Sources */,

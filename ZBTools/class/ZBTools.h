@@ -18,6 +18,7 @@
 #import <ZBTools/NSDictionary+ZB.h>
 #import <ZBTools/NSArray+ZB.h>
 #import <ZBTools/UIBezierPath+ZB.h>
+#import <ZBTools/ZBDeviceUUID.h>
 #else
 #import "ZBUtility.h"
 #import "NSObject+ZB.h"
@@ -27,6 +28,7 @@
 #import "NSDictionary+ZB.h"
 #import "NSArray+ZB.h"
 #import "UIBezierPath+ZB.h"
+#import "ZBDeviceUUID.h"
 #endif
 
 #endif /* ZBTools_h */
